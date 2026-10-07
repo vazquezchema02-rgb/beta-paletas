@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Beta Paletas - paletas de agua, leche y sabores especiales.">
+    <title>Beta Paletas | Sabor artesanal</title>
+    <link rel="icon" type="image/jpeg" href="{{ url_for('static', filename='img/logo.jpeg') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="leaf-corner leaf-top-left" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+    </div>
+    <div class="leaf-corner leaf-top-right" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+    </div>
+
+    <header class="navbar">
+        <a class="brand" href="#inicio">
+            <img src="{{ url_for('static', filename='img/logo.jpeg') }}" alt="Logo Beta Paletas">
+            <span>Beta Paletas</span>
+        </a>
+        <nav>
+            <a href="#sabores">Sabores</a>
+            <a href="#especiales">Especiales</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <div class="vine vine-left" aria-hidden="true">
+                <i></i><i></i><i></i><i></i><i></i>
+            </div>
+
+            <div class="hero-content">
+                <div class="logo-wrap">
+                    <img src="{{ url_for('static', filename='img/logo.jpeg') }}" alt="Beta Paletas">
+                </div>
+                <p class="eyebrow">Hechas con cariño · sabor artesanal</p>
+                <h1>Un sabor para<br><em>cada antojo.</em></h1>
+                <p class="hero-text">
+                    Paletas de agua, leche y creaciones especiales para disfrutar
+                    algo fresco, casero y diferente.
+                </p>
+                <a class="main-button" href="#sabores">Ver sabores <span>↓</span></a>
+            </div>
+
+            <div class="vine vine-right" aria-hidden="true">
+                <i></i><i></i><i></i><i></i><i></i>
+            </div>
+        </section>
+
+        <section class="intro">
+            <div class="section-leaf" aria-hidden="true">❧</div>
+            <p class="eyebrow">Conoce nuestro menú</p>
+            <h2>Sabores que se antojan</h2>
+            <p>
+                Desde los clásicos de fruta hasta combinaciones cremosas y especiales.
+                Explora las opciones de Beta Paletas.
+            </p>
+        </section>
+
+        <section class="menu-section" id="sabores">
+            <div class="section-title">
+                <span class="little-leaf">🌿</span>
+                <div>
+                    <p class="eyebrow">Frescas y frutales</p>
+                    <h2>Paletas de agua</h2>
+                </div>
+            </div>
+
+            <div class="flavor-grid">
+                <div class="flavor-card"><span>🍉</span>Sandía</div>
+                <div class="flavor-card"><span>🍋</span>Limón</div>
+                <div class="flavor-card"><span>🥒</span>Pepino</div>
+                <div class="flavor-card"><span>🌰</span>Tamarindo</div>
+                <div class="flavor-card"><span>🌺</span>Jamaica</div>
+                <div class="flavor-card"><span>🍈</span>Guayaba</div>
+                <div class="flavor-card"><span>💛</span>Maracuyá</div>
+                <div class="flavor-card"><span>⭐</span>Carambolo</div>
+            </div>
+        </section>
+
+        <section class="menu-section milk-section">
+            <div class="section-title">
+                <span class="little-leaf">🌿</span>
+                <div>
+                    <p class="eyebrow">Cremosas y deliciosas</p>
+                    <h2>Paletas de leche</h2>
+                </div>
+            </div>
+
+            <div class="flavor-grid">
+                <div class="flavor-card"><span>🥥</span>Coco</div>
+                <div class="flavor-card"><span>🥜</span>Cacahuate</div>
+                <div class="flavor-card"><span>🍫</span>Chocolate</div>
+                <div class="flavor-card"><span>🍓</span>Fresa</div>
+                <div class="flavor-card"><span>🧡</span>Mamey</div>
+                <div class="flavor-card"><span>💛</span>Maracuyá</div>
+                <div class="flavor-card"><span>🥭</span>Guanábana</div>
+                <div class="flavor-card"><span>☕</span>Café</div>
+                <div class="flavor-card"><span>🧀</span>Queso</div>
+                <div class="flavor-card"><span>🍪</span>Galleta</div>
+                <div class="flavor-card"><span>🥃</span>Ron</div>
+                <div class="flavor-card"><span>🌼</span>Vainilla</div>
+                <div class="flavor-card"><span>🌰</span>Piñón</div>
+                <div class="flavor-card"><span>🤎</span>Almendra</div>
+                <div class="flavor-card"><span>💚</span>Pistache</div>
+                <div class="flavor-card"><span>🍋</span>Limoneta</div>
+                <div class="flavor-card"><span>🍬</span>Mazapán</div>
+                <div class="flavor-card"><span>🌰</span>Frutos secos</div>
+                <div class="flavor-card"><span>🌰</span>Nuez</div>
+                <div class="flavor-card"><span>🍮</span>Cajeta</div>
+                <div class="flavor-card"><span>💜</span>Lavanda</div>
+                <div class="flavor-card"><span>🍚</span>Arroz</div>
+                <div class="flavor-card"><span>🌿</span>Chocomenta</div>
+                <div class="flavor-card"><span>🍈</span>Melón</div>
+                <div class="flavor-card"><span>🫐</span>Arándano</div>
+            </div>
+        </section>
+
+        <section class="special-section" id="especiales">
+            <div class="special-content">
+                <div class="special-copy">
+                    <p class="eyebrow">Para consentirte</p>
+                    <h2>Sabores<br><em>especiales</em></h2>
+                    <p>
+                        Combinaciones diferentes para cuando quieres probar algo
+                        fuera de lo común.
+                    </p>
+                </div>
+
+                <div class="special-grid">
+                    <div class="special-card">Queso con zarzamora</div>
+                    <div class="special-card">Queso con higo</div>
+                    <div class="special-card">Fresas con crema</div>
+                    <div class="special-card">Arándano con crema</div>
+                    <div class="special-card">Avellana con nuez</div>
+                    <div class="special-card">Taro con yogurt</div>
+                    <div class="special-card">Amaretto</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contacto">
+            <div class="contact-vines" aria-hidden="true">🌿</div>
+            <p class="eyebrow">¿Se te antojó?</p>
+            <h2>Contáctanos</h2>
+            <p class="contact-text">
+                Para pedidos, disponibilidad y más información, mándanos mensaje.
+            </p>
+
+            <div class="contact-cards">
+                <a class="contact-card whatsapp" href="https://wa.me/522311224262" target="_blank" rel="noopener noreferrer">
+                    <span class="contact-icon">☏</span>
+                    <div>
+                        <strong>WhatsApp / Teléfono</strong>
+                        <span>+52 231 122 4262</span>
+                    </div>
+                </a>
+
+                <a class="contact-card" href="https://www.instagram.com/beta_paletas/" target="_blank" rel="noopener noreferrer">
+                    <span class="contact-icon">◎</span>
+                    <div>
+                        <strong>Instagram</strong>
+                        <span>@beta_paletas</span>
+                    </div>
+                </a>
+
+                <a class="contact-card" href="https://www.facebook.com/beta_paletas" target="_blank" rel="noopener noreferrer">
+                    <span class="contact-icon">f</span>
+                    <div>
+                        <strong>Facebook</strong>
+                        <span>beta_paletas</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="{{ url_for('static', filename='img/logo.jpeg') }}" alt="">
+        <p>Beta Paletas · Sabor artesanal</p>
+        <p class="copyright">© <span id="year"></span> Beta Paletas</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
