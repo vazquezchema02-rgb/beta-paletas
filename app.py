@@ -7,11 +7,10 @@ app = Flask(__name__)
 def inicio():
     return render_template("index.html")
 
-@app.route("/robots.txt")
+@aplicación.route("/robots.txt")
 def robots():
     contenido = "User-agent: *\nAllow: /\n"
-    return Response(contenido, mimetype="text/plain")
-
+    return Respuesta(contenido, mimetype="text/plain")
 if __name__ == "__main__":
     app.run(debug=True)
   
